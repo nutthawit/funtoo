@@ -1,7 +1,7 @@
 # funtoo
 
 ## Create VM on VirtualBox
-### 1. First step is create virtual machine on VirtualBox with specs.
+#### 1. First step is create virtual machine on VirtualBox with specs.
 ```yaml
 CPU: '8 core'
 RAM: '10 GiB'
@@ -16,9 +16,9 @@ Enable_3D_Acceleration: True
 .
 The rest is left as default.
 ```
-### 2. Second download [Funtoo](https://build.funtoo.org/livecd/funtoo-livecd-area31-5.1-beta-r1.iso "Area31 Funtoo LiveCD (1.5GB download)") images and used it's as a boot CD.
+#### 2. Second download [Funtoo](https://build.funtoo.org/livecd/funtoo-livecd-area31-5.1-beta-r1.iso "Area31 Funtoo LiveCD (1.5GB download)") images and used it's as a boot CD.
 
-### 3. Now following the instruction from [Funtoo Installation Guide](https://www.funtoo.org/Install/Introduction "Install Guide: Introduction").
+#### 3. Now following the instruction from [Funtoo Installation Guide](https://www.funtoo.org/Install/Introduction "Install Guide: Introduction").
 
 Used follow pattern for partitions design.
 ```yaml
@@ -44,7 +44,7 @@ flovor: workstation
 mix-ins: (non set)
 ```
 
-For VGA Support.
+For VGA support.
 ```bash
 echo "VIDEO_CARD="virtualbox" >> /etc/make.conf
 ```
